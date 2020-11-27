@@ -47,7 +47,6 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
     width: 30%;
 }
 
@@ -83,9 +82,14 @@ li a:hover {
     left: 10px;
 }
 
-.buttons,
-.langage {
+.buttons {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.langage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,11 +144,41 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 13%;
 }
 
 .bottomRow {
     color: rgba(0, 0, 0, .54);
+    display: inline-flex;
     padding-left: 27px;
     border-bottom: 1px solid #dadce0;
     border-top: 1px solid #dadce0;
+    height: 50%;
+}
+
+.bottom-left li {
+    float: left;
+    padding-right: 1%;
+}
+
+.bottom-right li {
+    float: right;
+    padding-right: 1%;
+}
+
+.bottomNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.bottomNavBar a {
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.developper {
+    float: right;
 }
