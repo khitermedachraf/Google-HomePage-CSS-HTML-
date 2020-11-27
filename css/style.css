@@ -180,5 +180,7 @@ footer {
 }
 
 .developper {
-    float: right;
+    position: absolute;
+    right: 1%;
+    font-size: 10px;
 }
