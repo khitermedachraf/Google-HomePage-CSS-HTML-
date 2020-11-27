@@ -1,8 +1,49 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: rgb(104, 36, 36);
+}
+
+.signbutton {
+    background-color: #4885ed;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+
 .centerImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 12%;
     width: 30%;
 }
 
@@ -38,7 +79,8 @@
     left: 10px;
 }
 
-.buttons {
+.buttons,
+.langage {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -65,4 +107,25 @@
 .button:focus {
     border: 1px solid #4885ed;
     padding: 9px 19px;
+}
+
+.langageSpace {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.langageSpace a {
+    text-decoration: none;
+    color: #003ba1;
+}
+
+.langageSpace a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.langageSpace a:active {
+    color: rgb(97, 7, 124);
 }
